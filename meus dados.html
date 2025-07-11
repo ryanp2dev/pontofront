@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Dados</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-placeholder"></div>
+            <a href="#" class="logout-link"><i class="fas fa-user"></i> Sair</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#">Mapa</a></li>
+            <li><a href="#">Reclamações</a></li>
+            <li><a href="#">Relatórios</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <div class="form-container">
+            <h2 class="form-title">Meus Dados</h2>
+            <form action="#" method="post" class="data-form">
+                <div class="form-group">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome Completo" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="registro">Registro administrativo</label>
+                    <input type="text" id="registro" name="registro" placeholder="Registro Administrativo" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" value="********" disabled>
+                </div>
+                <button type="submit" class="edit-button">EDITAR</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <img src="https://i.imgur.com/8Q9uY0n.png" alt="Prefeitura de Ponta Porã" class="footer-logo">
+    </footer>
+
+</body>
+</html>
